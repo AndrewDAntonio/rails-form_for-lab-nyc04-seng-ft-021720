@@ -1,0 +1,7 @@
+<h2>Edit Student Form</h2>
+<%= form_for (@student) do |f| %>
+
+<p>Enter First Name<%= f.text_field :first_name %></p>
+<p>Enter Last Name<%= f.text_field :last_name %></p>
+<%= f.submit %>
+<% end %>
